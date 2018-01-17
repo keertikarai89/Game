@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightGrey">#DDDDDD</color>
+    <color name="balloonColor">@color/black_overlay</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="green">#ff00ff00</color>
+    <color name= "black">#000000</color>
+    <color name="blue">#4169e1</color>
+    <color name="orange">#ffdb58</color>
+    <color name="dark_green">#6fbf00</color>
+    <color name="red">#cf0000</color>
+    <color name="purple">#633f74</color>
+    <color name="offwhite">#e8eacd</color>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pop the Balloon!</string>
+    <string name="play_game">Start</string>
+    <string name="play">Play</string>
+    <string name="how_to_play">How To Play</string>
+    <string name="score_label">Score:</string>
+    <string name="maxNumber">999</string>
+    <string name="level_label">Level:</string>
+    <string name="you_completed_n_levels">Levels completed: %s</string>
+    <string name="game_over">Game over!</string>
+    <string name="missed_balloon">Missed Balloon!</string>
+    <string name="you_finished_level_n">You finished level %s!</string>
+    <string name="popping_balloon">Popping Balloon</string>
+    <string name="easy">Easy</string>
+    <string name="difficult">Difficult</string>
+    <string name="main_menu">Menu</string>
+</resources>

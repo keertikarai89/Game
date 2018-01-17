@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.depaul.csc472.gamescreen.how_to_play"
+    android:background="@drawable/cloud">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_play"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="250dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/purple"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/offwhite"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginLeft="100dp"
+        android:text="\n1. Tap on the Balloons to Pop\n\n 2. If you will miss a Balloon, you will loose a life.\n\n 3. You have total 5 lives.\n\n 4. Speed of the balloon will increase as you progress further.\n\n 5. Each pop will get you 10 points.\n"
+        android:textColor="@color/red"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="300dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="edu.depaul.csc472.gamescreen.GameMode"
+    android:background="@drawable/cloud">
+
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/easy"
+        android:textSize="25dp"
+        android:textColor="@color/dark_green"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/balloon1"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/difficult"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:drawableRight="@drawable/balloon1"
+        android:text="@string/difficult"
+        android:textColor="@color/red"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>
